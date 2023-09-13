@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+    <script src="https://kit.fontawesome.com/c79780db4a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+        <img src ="images/new_logo1.jpg" class ="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Projects</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+    <h2 style="font-family: 'Times New Roman', Times, serif;">C o m p u t e r  E n g i n e e r</h2><br>
+<h1>Hi, I'm <span>Shreya</span><br>Gupta from India</h1>
+</div>
+</div>
+</div>
+
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user1 (2).jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me<br></h1>
+                <p>Analytically-minded and motivated fresher with
+                    a B.Tech in Computer Engineering. Aiming to
+                    launch a career as a data analyst. Proficient in
+                    data manipulation, and data visualization tools,
+                    including Power BI, MySQL, SQL, and Excel. Eager to contribute my analytical acumen and
+                    fresh perspectives to drive data-centric decision- making in a dynamic organization.<br><br></p>
+                  
+                    <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Microsoft Power BI</span><br></li>
+                        <li><span>SQL</span><br></li>
+                        <li><span>MySQL</span><br></li>
+                        <li><span>Advance Excel</span><br></li>
+                        <li><span>Data Analysis</span><br></li>
+                        <li><span>Data Cleaning</span><br></li>
+                        <li><span>Data Transformation</span><br></li>
+                        <li><span>Data Visualization</span><br></li>
+                        <li><span>Data Modeling</span><br></li>
+                        <li><span>Analytical Skills</span><br></li>
+
+                    </ul>
+                </div>    
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-2023</span><br>Bharati Vidyapeeth Deemed to be University,College Of Engineering,
+                            Pune<br>GPA: 9.5</li>
+                        <li><span>2017-2018</span><br>Higher Secondary from GD Goenka Public School,Lucknow<br>12th Percentage: 87%</li>
+                        <li><span>2015-2016</span><br>Senior Secondary from Army Public School, Ayodhya<br>10th GPA: 10/10 CGPA</li>
+                    </ul>
+                </div>  
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022</span><br>TRAINING & INTERNSHIP<br>Full Stack Web Development<br>Acmegrade</li>
+
+                    </ul>
+                </div>           
+            </div>
+        </div>
+    </div>
+  </div>
+
+<div id="services">
+    <div class="container">
+       <h1 class="sub-title">My Projects</h1>
+       <div class="services-list">
+        <div>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <h2>Schooled Street</h2>
+            <p>Transform raw data into professional quality reports and built
+                interactive dashboards, to gain insights of product prices in different regions. </p>
+                <a href="https://github.com/mpds2000/Schooled_Street" target="_blank"><h4><u>Go to GitHub Repository</u></h4></a>
+        </div>
+        <div>
+            <i class="fa-solid fa-motorcycle"></i>
+            <h2>DataWander Ventures</h2>
+            <p>Played the role of Business Intelligence Analyst for DataWander Ventures, a fictional manufacturing company. Transform raw data into professional-quality reports and built
+                interactive dashboards to track KPIs, compare regional
+                performance, analyze product-level trends, and identify high- value customers</p>
+                <a href="https://github.com/mpds2000/DataWander-Ventures" target="_blank"><h4><u>Go to GitHub Repository</u></h4></a>
+        </div>
+        <div>
+            <i class="fa-solid fa-video"></i>
+            <h2>Netflix</h2>
+            <p>Utilized Excel skills for data preprocessing, including data
+                cleaning, column splitting, and data trimming and separation, to
+                prepare a dataset sourced from Kaggle.com for analysis. Employed SQL and MySQL Workbench to import CSV files into a MySQL database, and subsequently leveraged Power BI
+                Desktop to extract data from the database, creating an
+                interactive dashboard for Netflix content analysis and insights.
+                 </p>
+                 <a href="https://github.com/mpds2000/Netflix" target="_blank"><h4><u>Go to GitHub Repository</u></h4></a>
+        </div>
+        <div>
+            <i class="fa-solid fa-briefcase"></i>
+            <h2>Combining SQL with Tableau</h2>
+            <p>Received a business task, used SQL for retrieving a relevant
+              dataset, then exported obtained data in a CSv file to Tableau. Finally created a professional visualization in Tableau.
+              </p>
+              <a href="https://github.com/mpds2000/SQL-with-Tableau" target="_blank"><h4><u>Go to GitHub Repository</u></h4></a>
+        </div>
+        <div>
+            <i class="fa-solid fa-car-burst"></i>
+            <h2>Crash Detection in Automobiles</h2>
+            <p>It is a research based project.I have worked on few algorithms to check the efficiency of each. The algorithms were CNN , RCNN with LSTM, Yolov3</p>
+            <a href="https://github.com/mpds2000/Crash-Detection-in-Automobiles" target="_blank"><h4><u>Go to GitHub Repository</u></h4></a>       
+        </div>
+        <div>
+            <i class="fa-solid fa-image-portrait"></i>
+            <h2>Portfolio</h2>
+            <p>This website design is completely responsive for all screen devices like mobile phones.</p>
+            <a href="https://github.com/mpds2000/Personal-Portfolio" target="_blank"><h4><u>Go to GitHub Repository</u></h4></a>           
+        </div>
+         
+       
+       </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Extra Activities</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/activity 1.jpeg">
+                <div class="layer">
+                    <h3>Classical Singer</h3>
+                    <p>3 Years of
+                        certification and 10 years of
+                        practice in Classical music.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/activity 2.jpeg">
+                <div class="layer">
+                    <h3>UCMAS</h3>
+                    <p>Certification in UCMAS Abacus and
+                        Mental Arithmetic Programme (State
+                        Level).</p>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="images/activity 4.jpeg">
+                <div class="layer">
+                    <h3>Olympiads</h3>
+                    <p>Achieved medals and participated in
+                        many National / International
+                        Olympiads.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/activity 3.jpeg">
+                <div class="layer">
+                    <h3>NCSC</h3>
+                    <p>Certificate of Appreciation for
+                        National Children’s Science
+                        Congress (NCSC).</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1><br>
+            <p><i class="fa-solid fa-paper-plane"></i> shreyagupta3007@gmail.com</p><br>
+            <p><i class="fa-solid fa-square-phone"></i> 7905926073</p><br>
+            <p><i class="fa-solid fa-location-dot"></i> Delhi,India</p><br>
+            <p><i class="fa-brands fa-github"></i>https://github.com/mpds2000</p><br>
+            <div class="social-icons">
+                <a href="https://instagram.com/_shrgup_?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/shreya-gupta-a3a700234"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/mpds2000"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="images/Shreya's Resume .pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright <i class="fa-regular fa-copyright"></i> Shreya3007. Made with <i class="fa-solid fa-heart"></i> by Shreya Gupta. </p>
+</div>
+</div>
+
+  <script>
+
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+     }
+
+</script>
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxb4fIKKutry8TaBJlN74t89NM5_mJ5nzAc5FN4BwvWIpOqZUfhaoH66CKZyaO0V8kK/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
