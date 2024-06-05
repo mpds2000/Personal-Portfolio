@@ -15,7 +15,7 @@ body
 #header{
     width:100%;
     height:100vh;
-    background-image: url(images/BG2.jpg);
+    background-image: url(images/Profile_Photo.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -30,6 +30,7 @@ nav{
 }
 .logo{
     width: 140px;
+    color:#8d8dc2;
 }
 nav ul li{
     display: inline-block;
@@ -46,13 +47,15 @@ nav ul li a::after {
     content: ' ';
     width: 0;
     height: 3px;
-    background: #3d7fc1;
+    color:#8d8dc2;
     position:absolute;
     left: 0;
     bottom: -6px;
     transition: 0.5s;
 }
 nav ul li a:hover::after{
+    background-color: #8d8dc2;
+    background-size: cover;
     width:100%;
 }
 .header-text{
@@ -64,7 +67,7 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color:#7d1b10 ;
+    color:#8d8dc2 ;
 }
 #about{
     padding: 80px 0;
